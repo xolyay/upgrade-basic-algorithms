@@ -8,11 +8,11 @@ console.log(x);
 let h=5;
 console.log(h);
 
-let y=10;
-console.log(y);
+let yy=10;
+console.log(yy);
 
-let z =h+y;
-console.log(z);
+let zz =h+yy;
+console.log(zz);
 
 /*ITERATION 2*/
 
@@ -22,8 +22,9 @@ console.log(z);
 
 1.1
 const character= {name:'Jack Sparrow', age: 25};
-
-console.log(character);
+const character = {name: "Jack Sparrow", age: 10};
+character.age= 25;
+console.log(character.age)
 
 1.2
 
@@ -46,9 +47,13 @@ console.log (finalPrice)
 
 
 1.4
-let globalBasePrice = 10000;
-const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
-const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
+let globalBasePrice = 25000;
+let basePriceCar1= 50000;
+let basePriceCar2= 70000;
+let bmwmmFinalPrice = (basePriceCar1 + globalBasePrice);
+let chevroletCorbinaFinalPrice = (basePriceCar2 + globalBasePrice);
+console.log("Precio final BMW m&m:" + " " + bmwmmFinalPrice);
+console.log("Precio final Chevrolet Corbina:" + " " + chevroletCorbinaFinalPrice);
 
 
 
@@ -74,16 +79,16 @@ let numP = 9
 console.log(numS/numP);
 1.4
 
-let y= 10
-let z= 5
-console.log (y+z)
+let y = 10
+let z = 5
+
+let result =(y+z);
+console.log (result);
 
 
 1.5
-
-console.log(y*z)
-
-
+let pepe= (y*z);
+console.log(pepe);
 
 
 
@@ -97,38 +102,9 @@ console.log(y*z)
 
 
 
-1.1
-const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
-console.log(avengers[0])
-1.2
-const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
-avengerss[0] = "IRONMAN"
 
-1.3
-const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
-
-console.log(avengers.length)
-1.4
-const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
-
-rickAndMortyCharacters.push()
-
-console.log(rickAndMortyCharacters[2])
-1.5
-const rickAndMortyCharacterss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
-rickAndMortyCharacterss.pop()
-
-console.log(rickAndMortyCharacterss)
-1.6
-const rickAndMortyCharactersss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
-
-rickAndMortyCharactersss.splice(1, 1);
-
-console.log(rickAndMortyCharactersss)
-
-console.log (x);
 
 
 
